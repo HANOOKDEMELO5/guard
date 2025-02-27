@@ -1,0 +1,697 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header {
+    background-image: url(../images/hero.jpg);
+    background-color: white;
+    background-size: cover;  /* Ensures the image covers the whole area */
+    background-position: center;  /* Centers the image */
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+    position: relative;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1C1C1C;
+    color: white;
+    padding: 15px 20px;
+    position: relative;
+    display: none;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navigation Menu */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: rgb(212, 210, 210);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Hide default checkbox */
+#menu-toggle {
+    display: none;
+}
+
+/* Hamburger Icon */
+.hamburger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* top working is for moibile view  */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+    height: 300px;
+
+}
+
+.nav h1 {
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul li {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+    padding: 20px;
+}
+
+i{
+    color: white;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+
+
+ul li:hover {
+    background-color: yellow;
+    border-radius: 10px;
+    color: black;
+}
+
+.maincontent {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    margin-top: -180px;
+    margin-left: -650px;
+    margin-right: 20px;
+
+}
+
+.maincontent h2 {
+    color: white;
+    font-size: 60px;
+        
+
+
+}
+
+.maincontent span {
+    color: #FFD700;
+    
+}
+
+.maincontent p {
+    color: white;
+    margin-top: 10px;
+    
+}
+
+#mt{
+    margin-left: 200px;
+}
+
+.maincontent button {
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    margin-top: 15px;
+    border: none;
+    background-color: #FFD700;
+}
+
+/* the ending of the topheader part */
+
+/* The Starting of the ovelrpapping boxes */
+
+.secondpart {
+    display: flex;
+    gap: 5px;
+    position: relative;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 200px;
+    background-color: white;
+}
+
+
+.box1 {
+    width: 550px;
+    height: 300px;
+    background-color: darkblue;
+    background-image: url(../images/about-img.jpg);
+}
+
+.box2 {
+    width: 600px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+    margin-left: -600px;
+}
+
+
+.box2 h4 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.box2 p {
+
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.box2 button {
+
+    background-color: #FFD700;
+    color: white;
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: none;
+}
+
+
+.box2 h4::after {
+    content: "";
+    display: block;
+    width: 60px;
+    /* Adjust width of the line */
+    height: 6px;
+    /* Thickness of the line */
+    background-color: #FFD700;
+    /* Yellow color */
+    position: absolute;
+    right: px;
+
+}
+
+
+/* The seconpart ending  */
+
+
+.thirdpart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #1C1C1C;
+    width: 1420px;
+    height: 500px;
+    margin-top: 50px;
+    padding: 50px;
+    margin-left: -100px;
+    position: relative;
+    margin-right: -100px;
+}
+
+.thirdpart .heading h5 {
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 50px;
+    right: 530px;
+
+
+}
+
+.thirdpart .HOMEBOX {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    width: 150px;
+    height: 100px;
+
+}
+
+.thirdpart .OFFICEBOX {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    width: 150px;
+    height: 100px;
+}
+
+.thirdpart .GUARDEBOX {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    width: 150px;
+    height: 100px;
+}
+
+.thirdpart .boxs {
+    margin-top: 10px;
+    width: 300px;
+    height: 300px;
+  
+}
+
+.thirdpart .boxs {
+    text-align: center;
+}
+
+.thirdpart h6 {
+    font-size: 20px;
+}
+
+.thirdpart p {
+    margin-top: 30px;
+}
+
+.thirdpart  button{
+   margin-left: 70px;
+   margin-top: 50px;
+    width: 150px;
+    height: 30px;
+    border: none;
+  color: rgb(255, 255, 255);
+    background-color: #FFD700;
+}
+
+.boxs{
+    margin-left: 50px;
+    width: 500px;
+}
+
+
+
+.heading h5::after {
+    content: "";
+    display: block;
+    width: 60px;
+    /* Adjust width of the line */
+    height: 6px;
+    /* Thickness of the line */
+    background-color: #FFD700;
+    /* Yellow color */
+    position: absolute;
+    right: 160px;
+
+}
+
+/* the thirdpart also complte */
+
+/* the starting part also complte */
+.fourthpart{
+   position: relative; 
+}
+
+.fourthpart h4{
+    font-size: 30px;
+    text-align: center;
+    padding: 50px;
+    
+}
+
+.fourthpart img {
+position: absolute;
+right: 650px;
+height: 100px;
+}
+
+.fourthpart h3{
+    padding: 15px;
+}
+
+
+.client{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    margin-top: 120px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+/* the fifth part also complte */
+
+.fifthpart{
+    background-image: url(../images/contact-bg.jpg);
+background-color: #FFD700;
+width: 1416px;
+height: 500px;
+margin-top: 50px;
+display: flex;
+justify-content: center;
+
+align-items: center;
+position: relative;
+
+}
+
+.fifthpart .fm{
+
+width: 900px;
+height: 200px;
+margin-top:-65px;
+text-align: center;
+
+
+}
+
+.fifthpart form input{
+    width: 500px;
+    height: 30px;
+
+    }
+
+    .fifthpart input::placeholder {
+        color: rgb(0, 0, 0);  /* Change to any color */
+        opacity: 1;  /* Ensures the color is fully visible */
+        padding: 10px;
+font: 30px;
+    }
+
+    input {
+        margin-bottom: 15px; /* Space between inputs */
+        padding: 10px; /* Input padding */
+        width: 100%; /* Full-width input */
+        box-sizing: border-box; /* Includes padding and border */
+    }
+
+    input:last-child {
+        height: 80px; /* Larger height for the last input */
+    }
+
+
+    .fifthpart h5 {
+color: white;
+margin-top: -200px;
+text-align: center;
+position: absolute;
+right: 600px;
+
+font-size: 30px;
+        }
+    
+       .input-large:last-child {
+            height: 100px; /* Larger height for the last input */
+        }
+
+
+        .fifthpart button{
+            color: #ffffff;
+            border: #FFD700;
+            background-color: #FFD700;
+            width: 100px;
+            height: 30px;
+            /* padding: 10px; */
+        }
+        .fifthpart button:hover{
+    background-color:rgb(255, 255, 255) ;
+    color: yellow;
+    border: 2px solid yellow;
+    background-image: url(../images/t1.jpg);
+}
+
+
+        #near h5::after {
+            content: "";
+            display: block;
+            width:40px;
+            /* Adjust width of the line */
+            height: 6px;
+            /* Thickness of the line */
+            background-color: #FFD700;
+            /* Yellow color */
+            position: absolute;
+            right: 80px;
+            border-radius: 15px;
+        
+        }
+        
+        /* the form section is completed finally  */
+
+
+        /* the guards picss or deatailing startk */
+
+        .sixthpart{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 120px;
+            margin-right: 10px;
+            padding: 10px;
+        }
+
+        
+.sixthpart h3{
+ text-align: center;
+ padding: 20px;
+ font-size: 30px;
+margin-top: -65px;
+}
+
+.sixthpart p{
+    text-align: center;
+   }
+
+
+/* the guards details end */
+
+.guardspics {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    background-color: #ffffff;
+    width: 100%;
+
+    margin: 50px auto;
+    padding: 10px;
+    position: relative;
+    box-sizing: border-box;
+    margin-top: -10px;
+    flex-wrap: wrap;
+}
+
+
+
+.boxs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.boxs img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.guardspics h6 {
+    font-size: 20px;
+    margin-top: 300px;
+    background-color: #1c1c1c54;
+    font-weight: bold;
+    color: #ffffff;
+    
+}
+
+.guardspics p {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+
+.MN, .DB, .NM {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.MN{
+    background-image: url(../images/t1.jpg);
+}
+
+.DB{
+    background-image: url(../images/t2.jpg);
+}
+
+.NM{
+    background-image: url(../images/t3.jpg);
+}
+
+.guardspics h6{
+    font-size: 20px;
+    background-color: rgba(54, 54, 54, 0.7); /* Black with transparency */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 500px;
+    height: 100px;
+
+}
+
+.lastbutton{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin-top: -50px;
+}
+
+.lastbutton button{
+    background-color: #FFD700;
+    color: white;
+    border: none;
+    /* padding:k0px; */
+    width: 100px;
+    height: 30px;
+}
+
+
+.lastbutton button:hover{
+    background-color:white ;
+    color: yellow;
+    border: 2px solid yellow;
+}
+/* the guards pictures or deatailing complted so now go towards the footer  */
+
+/* Footer Styles */
+.footer {
+    background-color: #111;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 30px;
+   max-width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.footer-box {
+    width: 220px;
+    text-align: left;
+}
+
+.footer-box h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-box p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+.newsletter input {
+    width: 9    0%;
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.newsletter button {
+    background-color: #f6e924;
+    color: #111;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.newsletter button:hover {
+    background-color: #d4c500;
+}
+
+.social-icons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #bbb;
+}
+
+.footer input::placeholder {
+    color: rgb(104, 101, 101);  /* Change to any color */
+    opacity: 1;  /* Ensures the color is fully visible */
+    padding: 10px;
+font: 30px;
+text-align: left;
+}
+
+span i{
+    font-size: 20px;
+    gap:10;
+}

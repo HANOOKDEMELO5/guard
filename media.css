@@ -1,0 +1,144 @@
+
+@media screen and (max-width: 768px) {
+
+    .header{
+        width: 100em;
+    }
+
+
+.maincontent{
+    width: 100em;
+
+margin-top: -100px;
+
+}
+
+
+
+
+        .header{
+            width: 100%;
+            height: 500px;
+        }
+    
+        
+        .maincontent{
+            padding: 2em;
+           height: 10em;
+          flex-wrap: wrap;
+            
+        }
+    
+        .nav ul li{
+            display: none;
+            
+    
+        }
+
+        .mbil{
+            display: block;
+            width: 100em;
+        }
+        .mbil ul li {
+    margin-left: -380px;
+
+        }
+
+
+        .nav-links {
+            display: none;
+            flex-direction: column;
+            background-color: #1C1C1C;
+            position: absolute;
+            top: 60px;
+            left: 0;
+            width: 50%;
+            text-align: center;
+            padding: 0px 0;
+        }
+    
+        .nav-links li {
+            display: block;
+            margin: 2px 0;
+
+        }
+
+        .nav-links a:hover {
+            color: rgb(0, 0, 0);
+            
+        }
+        
+        .hamburger {
+            display: block;
+            transition: 0.2;
+        }
+    
+        /* Toggle menu when checkbox is checked */
+        #menu-toggle:checked + .hamburger + .nav-links {
+            display: flex;
+        }
+
+        .guardspics{
+            flex-direction: column-reverse;
+            margin-left: 0px;
+            width: 500px;
+        }
+
+        .MN, .DB, .NM {
+            display: flex
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width:100%;
+            height: 500px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-left: 200px;
+        
+          flex-wrap: wrap;
+    }
+
+    .guardspics h6 {
+   padding: 50px;
+    }
+
+    .thirdpart .boxs{
+    
+}
+.fifthpart{
+    background-image: url(../images/contact-bg.jpg);
+background-color: #FFD700;
+width: 60em;
+height: 500px;
+margin-top: 50px;
+display: flex;
+justify-content: center;
+
+align-items: center;
+position: relative;
+
+}
+
+.fifthpart h5 {
+    color: white;
+    margin-top: -200px;
+    text-align: center;
+    position: absolute;
+    right: 400px;
+    
+    font-size: 30px;
+            }
+
+            .footer {
+                background-color: #111;
+                color: #fff;
+                padding: 40px 0;
+                text-align: center;
+                font-family: Arial, sans-serif;
+                margin-top: 30px;
+                width: 60em;
+            }
+        
